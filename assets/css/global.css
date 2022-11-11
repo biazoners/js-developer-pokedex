@@ -1,11 +1,30 @@
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
 }
 
 .content {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
     padding: 1rem;
+    margin: auto; 
+    /* centralização por margem: funciona quando elemento tem tamanho fixo */
+    border-radius: 1rem;
 }
 
-.content h1 {
-    margin: 0;
+@media screen and (min-width: 768px){
+        .content {
+            max-width: 992px;
+            height: auto;
+            margin: 0 auto;
+        }
+    
 }
+
+
+
