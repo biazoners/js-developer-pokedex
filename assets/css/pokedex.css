@@ -5,12 +5,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;   
-
-
 }
-
-
-
 
 .pokemon {
     display: flex;
@@ -18,10 +13,26 @@
     margin: .5rem ;
     padding: 1rem;
     border-radius: 1rem;
-    background-color: #49D0B0;
+    background-color: #49D0B0; 
     color:white;    
     
 }
+
+
+.grass{
+    background-color: #49D0B0;
+}
+
+.fire{background-color: coral;}
+
+.water{background-color: blue;}
+
+.bug{ background-color: darkgray;
+
+}
+
+
+
 .pokemon .number {
     color: #a6d6cb;
     text-align: right;
@@ -31,7 +42,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-       
+    
 }
 
 .pokemon .detail .types {
