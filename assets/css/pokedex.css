@@ -1,5 +1,5 @@
-.name::first-letter{
-    text-transform: uppercase;
+.name{
+    text-transform: capitalize;
 }
 .pokemons {
     display: grid;
