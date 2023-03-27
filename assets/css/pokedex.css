@@ -1,4 +1,6 @@
-
+.name::first-letter{
+    text-transform: uppercase;
+}
 .pokemons {
     display: grid;
     grid-template-columns: 1fr 1fr;
