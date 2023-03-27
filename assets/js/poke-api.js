@@ -13,7 +13,7 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
     pokemon.type = type
 
     pokemon.photo = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/" + pokeDetail.id +".png"
-    
+     
     //pokeDetail.sprites.other.dream_world.front_default
 
     return pokemon
